@@ -25,7 +25,7 @@ if __name__== "__main__":
     usage = "usage: %prog [-f] input_filename [-k] key [-o] output_filename"
     parser = OptionParser(usage=usage)
     parser.add_option("-f","--file",help="选取raw格式的shellcode",type="string",dest="file")
-    parser.add_option("-k","--key",help="输入加密Key",type="int",dest="key",default=11)
+    parser.add_option("-k","--key",help="输入加密Key",type="int",dest="key",default=10)
     parser.add_option("-o","--output",help="输出文件名",type="string",dest="output")
 
     if len(sys.argv) < 4:
