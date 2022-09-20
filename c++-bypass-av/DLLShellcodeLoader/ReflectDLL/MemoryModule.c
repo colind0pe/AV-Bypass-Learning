@@ -24,6 +24,9 @@
  *
  */
 
+#define _CRT_SECURE_NO_DEPRECATE 1
+
+#define _CRT_NONSTDC_NO_DEPRECATE 1
 #ifndef __GNUC__
  // disable warnings about pointer <-> DWORD conversions
 #pragma warning( disable : 4311 4312 )

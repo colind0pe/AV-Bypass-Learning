@@ -23,7 +23,7 @@ int main()
 	msg RunMsg;  // msg函数的函数指针
 	HMEMORYMODULE hModule; // MemoryModule句柄，应该可以这么理解,,
 	HANDLE hBadCodeDll = INVALID_HANDLE_VALUE; // 打开PE文件的句柄
-	WCHAR szBadCodeFile[] = TEXT("D:\\AV Bypass Learning\\c++-bypass-av\\DLLShellcodeLoader\\DLLTest\\x64\\Release\\DLLTest.dll"); // PE文件的物理路径
+	WCHAR szBadCodeFile[] = TEXT("shellcode.dll"); // PE文件的物理路径
 	DWORD dwFileSize = 0; // PE文件大小
 	DWORD dwReadOfFileSize = 0; // 已读取的PE文件大小
 	PBYTE bFileBuffer = NULL; // PE文件的内存地址
